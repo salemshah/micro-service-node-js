@@ -3,19 +3,16 @@ class User {
     /**
      * @url = /auth
      * @method=POST
-     * @param req
-     * @param res
      */
-    auth(req, res) {
+    static auth(req, res) {
         console.log("/auth")
     }
+
     /**
-     * @url = /auth
-     * @method= POST
-     * @param req
-     * @param res
+     * @url = /register
+     * @method = DELETE
      */
-    auth(req, res) {
+    static register(req, res) {
         console.log("/register")
     }
 

@@ -2,9 +2,9 @@
   "name": "micro-service",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "monolith/index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon monolith/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
